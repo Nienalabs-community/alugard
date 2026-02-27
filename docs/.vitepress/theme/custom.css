@@ -1,0 +1,17 @@
+/* docs/.vitepress/theme/custom.css */
+
+/* Add a beautiful bluish radial gradient to the homepage background */
+.VPHome {
+  background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.15) 0%, rgba(0, 0, 0, 0) 60%) !important;
+}
+
+/* Enhance the effect for dark mode (VitePress adds .dark to the html element) */
+.dark .VPHome {
+  background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15) 0%, rgba(0, 0, 0, 0) 60%) !important;
+}
+
+/* Optional: Add a nice glow specifically behind the Hero Image */
+:root {
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0284c7 30%, #38bdf8 70%);
+  --vp-home-hero-image-filter: blur(60px);
+}

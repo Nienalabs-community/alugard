@@ -1,0 +1,39 @@
+/**
+ * AlugardDrop - Styles
+ * Modern CSS replacing dragula's Stylus-compiled CSS.
+ * No vendor prefixes, no IE filters, CSS variables for customization.
+ */
+
+:root {
+  --ad-mirror-opacity: 0.8;
+  --ad-transit-opacity: 0.2;
+  --ad-mirror-z-index: 9999;
+}
+
+/* Mirror: the visual clone that follows the cursor */
+.ad-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: var(--ad-mirror-z-index) !important;
+  opacity: var(--ad-mirror-opacity);
+  pointer-events: none;
+  will-change: transform;
+  /* The initial position is set via transform: translate3d() in JS */
+  top: 0;
+  left: 0;
+}
+
+/* Hide: utility class for hiding elements */
+.ad-hide {
+  display: none !important;
+}
+
+/* Unselectable: prevents text selection during drag */
+.ad-unselectable {
+  user-select: none !important;
+}
+
+/* Transit: applied to the source element while being dragged */
+.ad-transit {
+  opacity: var(--ad-transit-opacity);
+}

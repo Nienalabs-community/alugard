@@ -1,0 +1,16 @@
+# Source code
+src/
+tests/
+docs/
+
+# Configuration files
+.github/
+tsconfig.json
+tsconfig.build.json
+vite.config.ts
+
+# Misc
+.gitignore
+bun.lock
+bun.lockb
+node_modules/

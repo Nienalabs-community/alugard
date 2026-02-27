@@ -1,0 +1,46 @@
+{
+  "name": "alugard-drop",
+  "version": "1.0.0",
+  "description": "Modern drag and drop library — zero dependencies, TypeScript-first",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Williamboy868/alugard.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "./dist/alugard-drop.cjs",
+  "module": "./dist/alugard-drop.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/alugard-drop.js",
+      "require": "./dist/alugard-drop.cjs"
+    },
+    "./style.css": "./dist/alugard-drop.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly --declaration --outDir dist",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": ["drag", "drop", "dragula", "dnd", "sortable"],
+  "license": "MIT",
+  "devDependencies": {
+    "happy-dom": "^20.7.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.0.18"
+  }
+}
