@@ -16,6 +16,12 @@ Full documentation, interactive examples, and API references are available here:
 - **Ultra Lightweight:** Zero external dependencies. Keeps your bundle size incredibly small while delivering native-like physics.
 - **First-Class TypeScript:** Provides comprehensive typings out of the box for an excellent developer experience and auto-completion.
 
+## Contributing
+
+Contributions are always welcome! Whether it's a bug report, new feature, or documentation update, we appreciate your help.
+
+Please read our [Contributing Guide](CONTRIBUTING.md) to learn how to set up the project locally, run tests, and submit a Pull Request.
+
 ---
 
 *See the `docs` folder for local VitePress documentation.*
