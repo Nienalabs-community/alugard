@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Alugard-Drop",
+  base: '/alugard/',
   description: "Modern drag and drop library — zero dependencies, TypeScript-first",
   themeConfig: {
     logo: '/logo.png',
