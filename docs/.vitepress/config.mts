@@ -52,7 +52,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Williamboy868/alugard' }
+      { icon: 'github', link: 'https://github.com/Nienalabs-community/alugard' }
     ]
   }
 })

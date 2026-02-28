@@ -9,7 +9,7 @@ Alugard-Drop is built for the modern web as the perfect successor to Dragula. It
 ## Documentation
 
 Full documentation, interactive examples, and API references are available here:
-[Alugard-Drop Documentation](https://williamboy868.github.io/alugard/)
+[Alugard-Drop Documentation](https://nienalabs-community.github.io/alugard/)
 
 ### Features
 - **Framework Agnostic:** Works gracefully with Vanilla JS, React, Vue, Svelte, or any other library.

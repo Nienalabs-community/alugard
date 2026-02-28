@@ -4,7 +4,7 @@
   "description": "Modern drag and drop library — zero dependencies, TypeScript-first",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Williamboy868/alugard.git"
+    "url": "https://github.com/Nienalabs-community/alugard.git"
   },
   "publishConfig": {
     "access": "public"
